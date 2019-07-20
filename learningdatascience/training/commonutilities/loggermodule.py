@@ -18,14 +18,10 @@ from configparser import ConfigParser
 
 class loggerfunc(object):
 
-     def __init__(self):
-                self.confreader()
+     def __init__(self,level):
+                self.level=level
 
-     def confreader(self):
-        parser=ConfigParser()
-        parser.read('/home/fractaluser/learningdatascience/training/config_files/global_config.ini')
-        self.level=parser["COMMON"]["Logging_level"]
-        print(self.level)
+                print(self.level)
 
      def setlogginglevel(self):
 
@@ -54,6 +50,7 @@ class loggerfunc(object):
         return(logger_test)
     
 if __name__=="__main__":
-       t1=loggerfunc()
+       level="info"
+       t1=loggerfunc(level)
        t2=t1.logger()
        print(t2)

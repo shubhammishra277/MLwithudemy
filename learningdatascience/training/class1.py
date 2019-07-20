@@ -10,9 +10,9 @@ from commonutilities.loggermodule import loggerfunc
 class dataprocessing(object):
     
     def __init__(self):
-        loggerobj=loggerfunc()
-        self.logger=loggerobj.logger()
         self.confreader()
+        loggerobj=loggerfunc(self.level)
+        self.logger=loggerobj.logger()
         self.data=pd.read_csv(self.input_path)
 
         
