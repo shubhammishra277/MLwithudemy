@@ -57,7 +57,7 @@ class dataprocessing(object):
         
     def train_testsplit_generate(self):
         X,Y=self.featurescaling()
-        X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=0.2,random_state=42)
+        X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=float(self.test_split),random_state=42)
         return(X_train,X_test,Y_train,Y_test)
         
         

@@ -1,2 +1,20 @@
 2019-07-21 01:19:04,319  - INFO - list of depend variables : ['Country', 'Age', 'Salary']
 2019-07-21 01:19:04,319  - INFO - independent variable: Purchased
+2019-07-21 01:57:59,579  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:57:59,579  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:57:59,580  - INFO - independent variable: Purchased
+2019-07-21 01:57:59,580  - INFO - independent variable: Purchased
+2019-07-21 01:58:39,409  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:58:39,409  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:58:39,409  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:58:39,410  - INFO - independent variable: Purchased
+2019-07-21 01:58:39,410  - INFO - independent variable: Purchased
+2019-07-21 01:58:39,410  - INFO - independent variable: Purchased
+2019-07-21 01:59:48,826  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:59:48,826  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:59:48,826  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:59:48,826  - INFO - list of dependent variables : ['Country', 'Age', 'Salary']
+2019-07-21 01:59:48,826  - INFO - independent variable: Purchased
+2019-07-21 01:59:48,826  - INFO - independent variable: Purchased
+2019-07-21 01:59:48,826  - INFO - independent variable: Purchased
+2019-07-21 01:59:48,826  - INFO - independent variable: Purchased
